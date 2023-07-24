@@ -1,3 +1,3 @@
 import { Sequelize } from 'sequelize';
-const sequelize = new Sequelize('postgres://thinhtd2109:lZYL7PBvD9fg@ep-old-snowflake-877762-pooler.ap-southeast-1.aws.neon.tech/example-test');
+const sequelize = new Sequelize(process.env.connection_string);
 export default sequelize;

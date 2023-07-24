@@ -1,6 +1,6 @@
 import express from 'express';
-import inventoryRoutes from './inventory.router';
+import userRoutes from './user.router';
 
 const router = express.Router();
-router.use('/inventory', inventoryRoutes)
+router.use('/user', userRoutes)
 export default router;
